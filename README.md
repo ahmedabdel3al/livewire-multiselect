@@ -11,6 +11,12 @@ composer require bolyfci/livewire-multiselect
 ```
 ## Usage
 
+```bash
+ <x-multiselect
+        wire:model="formAttributes.multiselect"
+        :options="collect(\App\Enums\RoleEnum::toArray())->map(fn($value,$key)=> ['id'=>$key , 'name'=> $value])"
+    />
+ ```
 
 
 ## Testing
