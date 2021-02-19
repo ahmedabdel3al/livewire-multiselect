@@ -2,9 +2,9 @@
 
 namespace Bolyfci\LivewireMultiselect\Tests;
 
+use Bolyfci\LivewireMultiselect\LivewireMultiselectServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bolyfci\LivewireMultiselect\LivewireMultiselectServiceProvider;
 
 class TestCase extends Orchestra
 {
