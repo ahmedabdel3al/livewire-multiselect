@@ -12,19 +12,19 @@ class Multiselect extends Component
 
     public $trackBy;
 
-    public $title;
+    public $label;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($options, $selected = [], $trackBy = 'id', $title = 'name')
+    public function __construct($options, $selected = [], $trackBy = 'id', $label = 'name')
     {
         $this->options = $options;
         $this->selected = $selected;
         $this->trackBy = $trackBy;
-        $this->title = $title;
+        $this->label = $label;
     }
 
     /**

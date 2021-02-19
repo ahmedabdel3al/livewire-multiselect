@@ -85,7 +85,7 @@
                 options: @json($options) ? @json($options) : [],
                 selected: @entangle($attributes->wire('model')),
                 trackBy:@json($trackBy),
-                title:@json($title),
+                title:@json($label),
                 show: false,
                 open() {
                     this.show = true;
