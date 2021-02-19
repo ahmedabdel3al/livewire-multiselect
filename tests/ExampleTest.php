@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Bolyfci\LivewireMultiselect\Tests;
 
 class ExampleTest extends TestCase
 {

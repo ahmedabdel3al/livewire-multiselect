@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "bolyfci/livewire-multiselect",
+    "description": "Livewire multiselect component",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "bolyfci",
+        "livewire-multiselect"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/bolyfci/livewire-multiselect",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "ahmed abdelaal",
+            "email": "ahmed.abdelaal1921@mail.com",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Bolyfci\\LivewireMultiselect\\": "src",
+            "Bolyfci\\LivewireMultiselect\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Bolyfci\\LivewireMultiselect\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Bolyfci\\LivewireMultiselect\\LivewireMultiselectServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LivewireMultiselect": "Bolyfci\\LivewireMultiselect\\LivewireMultiselectFacade"
             }
         }
     },
