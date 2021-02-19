@@ -24,7 +24,7 @@
                             </template>
                             <div x-show="selected.length == 0" class="flex-1">
                                 <input placeholder="{{$attributes->get('placeholder') ?: 'Select Option'}}"
-                                       class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
+                                       class="bg-transparent p-1 px-2 appearance-none  outline-none h-full w-full text-gray-800">
                             </div>
                         </div>
                         <div class="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
