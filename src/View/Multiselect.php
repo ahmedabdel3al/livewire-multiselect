@@ -6,7 +6,6 @@ use Illuminate\View\Component;
 
 class Multiselect extends Component
 {
-
     public $options = [];
 
     public $selected = [];
@@ -26,7 +25,6 @@ class Multiselect extends Component
         $this->selected = $selected;
         $this->trackBy = $trackBy;
         $this->title = $title;
-
     }
 
     /**

@@ -6,7 +6,6 @@ use Bolyfci\LivewireMultiselect\View\Multiselect;
 use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bolyfci\LivewireMultiselect\Commands\LivewireMultiselectCommand;
 
 class LivewireMultiselectServiceProvider extends PackageServiceProvider
 {
@@ -27,6 +26,5 @@ class LivewireMultiselectServiceProvider extends PackageServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'multiselect');
 
         Blade::component('multiselect', Multiselect::class);
-
     }
 }
