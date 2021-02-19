@@ -1,6 +1,8 @@
 # Livewire multiselect component
 
-
+## Requirements
+- [Tailwind](https://tailwindcss.com/)
+- [Alpine JS](https://github.com/alpinejs/alpine)
 
 ## Installation
 
@@ -17,6 +19,19 @@ composer require bolyfci/livewire-multiselect
         :options="collect(\App\Enums\RoleEnum::toArray())->map(fn($value,$key)=> ['id'=>$key , 'name'=> $value])"
     />
  ```
+ 
+ ### Props
+| Property | Arguments |Default | Example |
+|----|----|----|----|
+|**trackBy**|*String* Used to compare objects.| id |```trackBy="id"```|
+|**label**|*String* Label from option Object, that will be visible in the dropdown..| name | ```title="name"```|  
+|**options**|*Arrray* Array of available options.| || ```:options="$options ?: [] "```|
+|**placeholder**|*string*Equivalent to the placeholder attribute on a <select> input. .| select options |```placholder="select options"```|
+
+
+
+
+---
 
 
 ## Testing
