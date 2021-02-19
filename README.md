@@ -6,7 +6,6 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/bolyfci/livewire-multiselect.svg?style=flat-square)](https://packagist.org/packages/bolyfci/livewire-multiselect)
 
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 
 ## Installation
@@ -18,10 +17,7 @@ composer require bolyfci/livewire-multiselect
 ```
 ## Usage
 
-```php
-$livewire-multiselect = new Bolyfci\LivewireMultiselect();
-echo $livewire-multiselect->echoPhrase('Hello, Bolyfci!');
-```
+
 
 ## Testing
 
