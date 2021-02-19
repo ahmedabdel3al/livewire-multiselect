@@ -27,7 +27,7 @@
                                        class="bg-transparent p-1 px-2 appearance-none  outline-none h-full w-full text-gray-800">
                             </div>
                         </div>
-                        <div class="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
+                        <div class="text-gray-300 w-8 py-1 pl-2 pr-1  flex items-center border-gray-200">
 
                             <button type="button"
                                     class="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
@@ -36,7 +36,8 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M19 9l-7 7-7-7"></path>
                                 </svg>
-                                <svg x-show="!show" x-on:click="open" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                <svg x-show="!show" x-on:click="open" fill="none" stroke="currentColor"
+                                     viewBox="0 0 24 24"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 15l7-7 7 7"></path>
