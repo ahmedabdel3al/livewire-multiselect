@@ -17,7 +17,7 @@ composer require bolyfci/livewire-multiselect
 ```bash
  <x-multiselect
         wire:model="multiselect"
-        :options="collect(\App\Enums\RoleEnum::toArray())->map(fn($value,$key)=> ['id'=>$key , 'name'=> $value])"
+        :options="[['id' => 'laravel , 'name' => 'Laravel'], ['id' => 'alpineJs', 'name' => 'Alpine JS'], ['id' => 'livewire', 'name' => 'Livewire']]"
     />
  ```
  
