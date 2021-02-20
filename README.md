@@ -3,6 +3,7 @@
 ## Requirements
 - [Tailwind](https://tailwindcss.com/)
 - [Alpine JS](https://github.com/alpinejs/alpine)
+- @stack('scripts') in layout blade 
 
 ## Installation
 
