@@ -1,4 +1,4 @@
-<div width: {{$attributes->get('width') ?: "400px"}};>
+<div style="width: {{$attributes->get('width') ?: "400px"}};">
     <div x-data="dropdown()" {{$attributes->wire('model')}}>
         <div class="relative" wire:ignore>
             <div class="flex flex-col items-center relative">
