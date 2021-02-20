@@ -22,7 +22,7 @@
                                     </div>
                                 </div>
                             </template>
-                            <div x-show="selected.length == 0" class="flex-1">
+                            <div class="flex-1">
                                 <input placeholder="{{$attributes->get('placeholder') ?: 'Select Option'}}"
                                        class="bg-transparent p-1 px-2 appearance-none  outline-none h-full w-full text-gray-800">
                             </div>
@@ -63,7 +63,7 @@
                                 </div>
                             </template>
                             <div x-show="!options.length"
-                                 class="cursor-pointer w-full border-gray-100 rounded border-b border-solid hover:bg-gray-400">
+                                 class="cursor-pointer w-full border-gray-100 rounded border-b border-solid ">
                                 <div class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative">
                                     <div class="w-full items-center flex justify-between">
                                         <div class="mx-2 leading-6"> List Is empty</div>
