@@ -3,7 +3,7 @@
 ## Requirements
 - [Tailwind](https://tailwindcss.com/)
 - [Alpine JS](https://github.com/alpinejs/alpine)
-- @stack('scripts') in layout blade 
+- @stack('scripts') in layout blade
 
 ## Installation
 
@@ -14,18 +14,18 @@ composer require bolyfci/livewire-multiselect
 ```
 ## Usage
 
-```bash
- <x-multiselect
-        wire:model="multiselect"
-        :options="[['id' => 'laravel , 'name' => 'Laravel'], ['id' => 'alpineJs', 'name' => 'Alpine JS'], ['id' => 'livewire', 'name' => 'Livewire']]"
-    />
+```html
+<x-multiselect
+  wire:model="multiselect"
+  :options="[['id' => 'laravel', 'name' => 'Laravel'], ['id' => 'alpineJs', 'name' => 'Alpine JS'], ['id' => 'livewire', 'name' => 'Livewire']]"
+/>
  ```
- 
+
  ### Props
 | Property | Arguments |Default | Example |
 |----|----|----|----|
 |**trackBy**|*String* Used to compare objects.| id |```trackBy="id"```|
-|**label**|*String* Label from option Object, that will be visible in the dropdown..| name | ```title="name"```|  
+|**label**|*String* Label from option Object, that will be visible in the dropdown..| name | ```title="name"```|
 |**options**|*Arrray* Array of available options.| || ```:options="$options ?: [] "```|
 |**placeholder**|*string*Equivalent to the placeholder attribute on a <select> input. .| select options |```placholder="select options"```|
 
@@ -33,7 +33,6 @@ composer require bolyfci/livewire-multiselect
 
 
 ---
-
 
 ## Testing
 
